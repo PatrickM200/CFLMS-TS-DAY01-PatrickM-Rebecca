@@ -10,7 +10,6 @@ for (var value of array) {
 
 */
 
-var name= array;
-for (let value in name) {
-   	console.log(name);
-	};
+for (var index in array) {
+   console.log(`${index}${array[index]}`);
+}
